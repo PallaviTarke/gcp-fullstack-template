@@ -66,7 +66,7 @@ services:
       - redis_master
 
   mongodb_exporter:
-    image: percona/mongodb_exporter
+    image: percona/mongodb_exporter:0.40.0
     ports:
       - "9216:9216"
     command:

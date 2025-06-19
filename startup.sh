@@ -10,7 +10,7 @@ sudo chmod +x /usr/local/bin/docker-compose
 
 # Clone project
 if [ ! -d "/home/gcp-fullstack-template" ]; then
-  git clone https://github.com/yourusername/gcp-fullstack-template.git /home/gcp-fullstack-template
+  git clone https://github.com/PallaviTarke/gcp-fullstack-template.git /home/gcp-fullstack-template
 fi
 cd /home/gcp-fullstack-template
 
